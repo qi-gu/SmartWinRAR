@@ -25,7 +25,7 @@ internal static class InstallerProgram
     // independent of the file association's optional PerceivedType value.
     private static readonly string[] ArchiveExtensions =
     {
-        ".zip", ".rar", ".tar", ".gz", ".tgz",
+        ".zip", ".rar", "7z", ".tar", ".gz", ".tgz",
         ".jar", ".apk", ".epub", ".cbz",
         ".bz2", ".xz", ".zst", ".lz", ".lzma"
     };
