@@ -13,7 +13,7 @@
 1. `%LOCALAPPDATA%\WinRARSmartExtract\WinRARSmartExtract.exe`
 2. `HKCU\Software\Classes\SystemFileAssociations\<扩展名>\shell\WinRARSmartExtract`
 
-右键菜单按扩展名注册，不依赖文件关联中的 `PerceivedType`。支持 `.zip`、`.rar`、`.tar`、`.gz`（包括 `.tar.gz`）、`.tgz`，以及程序能够检测的 ZIP 家族和单流压缩格式。
+右键菜单按扩展名注册，不依赖文件关联中的 `PerceivedType`。支持 `.zip`、`.rar`、`7z`、`.tar`、`.gz`（包括 `.tar.gz`）、`.tgz`，以及程序能够检测的 ZIP 家族和单流压缩格式。
 
 不安装服务，不写入开机启动项，不修改 WinRAR 文件，不需要管理员权限。卸载程序删除上述文件、目录和注册项。
 
